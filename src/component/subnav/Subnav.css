@@ -1,0 +1,37 @@
+.subnav{
+    position: relative;
+    display: flex;
+    align-items: flex-start;
+    padding-left: 60px;
+    padding-top: 10px;
+}
+.subnav_item{
+    font-size: 14px;
+    font-weight: 500;
+    margin: 0px 20px 0px 0px ;
+    font-family: 'Open Sans Condensed', sans-serif;
+    transition: 0.2s;
+    cursor: pointer;
+}
+.subnav_item:hover{
+    color: #686868;
+    border-bottom: 3px solid #355281;
+    padding-bottom: 4px;
+}
+.subnav_item:hover span{
+    border-bottom: none;
+}
+.subnav_item span{
+    border-bottom: 3px solid #355281;
+    padding-bottom: 4px;
+}
+.subnav_box_1{
+    display: flex;
+    list-style: none;
+}
+.subnav_box_2{
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: 0.8px;
+}
